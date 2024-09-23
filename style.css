@@ -58,12 +58,16 @@ footer{
 }
 
 a{
+    display: inline-block;
+    border: orangered;
     text-decoration: none;
-    color: purple;
+    color: black;
+    transition: all 0.3s ease;
 }
 
 a:hover{
-    color: red;
+    background-color: black;
+    color: white;
 }
 
 h3, h2, p, a{
